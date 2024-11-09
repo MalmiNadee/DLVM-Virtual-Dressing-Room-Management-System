@@ -1,0 +1,208 @@
+#feedback-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+.feedback-box, .form-box {
+    flex: 1; /* Make each box take up equal width */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-box {
+    margin-right: 20px; /* Add margin to separate from the form box */
+}
+
+.form-box {
+    max-width: 450px; /* Limit the width of the submit feedback form */
+}
+
+.feedback-box h4, .form-box h4 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .feedback-box, .form-box {
+        flex: 1 1 100%; /* Stack boxes on smaller screens */
+        margin-bottom: 20px;
+    }
+}
+
+#feedback-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.feedback-item {
+    display: flex;
+    justify-content: space-between; /* Space between content and the like icon */
+    align-items: flex-start; /* Align items at the start */
+    margin: 10px 0; /* Add some margin between feedback items */
+    padding: 10px; /* Add some padding */
+    border: 1px solid #e4e5e9; /* Optional: Add border for better visibility */
+    border-radius: 5px; /* Optional: Add border radius */
+}
+
+.feedback-content {
+    display: flex; /* Display flex to align items horizontally */
+    align-items: center; /* Align items vertically */
+    flex-grow: 1; /* Allow content to take available space */
+}
+
+.like-icon {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.revtextarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #8098cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #70a2e4;
+}
+
+.avatar {
+    width: 20px; /* Set the desired width */
+    height: 20px; /* Set the desired height */
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover; /* Ensures the image fits well */
+}
+
+.product-reviews-title {
+    font-size: 30px; 
+    font-weight: bold; 
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    border-bottom: 2px solid #007bff; 
+    padding-bottom: 10px; 
+}
+
+.all-reviews-title {
+    font-size: 26px; 
+    font-weight: bold; 
+    color: #555; 
+    margin-bottom: 15px; 
+    text-align: left; 
+    text-transform: capitalize; 
+    padding-bottom: 8px; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.average-rating-box {
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ddd; /* Border to outline the box */
+    padding: 15px; /* Space inside the box */
+    margin-bottom: 20px; /* Space below the box */
+    text-align: center; /* Center text alignment */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.average-rating-box h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.average-rating-value {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #333;
+}
+
+.average-rating-box {
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ddd; /* Border for outline */
+    padding: 20px; /* Increase padding for a balanced look */
+    margin: 20px auto; /* Center the box horizontally */
+    width: 1100px; /* Set a specific width for the box */
+    text-align: center; /* Center text alignment */
+    border-radius: 8px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Increase shadow for more depth */
+}
+
+.average-rating-box h4 {
+    margin-bottom: 10px;
+    font-size: 22px; /* Increase the font size */
+    color: #8b8b8b; /* Golden color to match the stars */
+    font-weight: bold; /* Make it bold */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 1px; /* Add letter spacing for a cleaner look */
+}
+
+.average-rating-value {
+    font-size: 24px; /* Larger font size */
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.star-rating-display {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.average-rating-value {
+    color: #094d96; 
+}
+
+#feedback-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+.feedback-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+}
+
+.feedback-box {
+    width: 40%; /* Decrease width of the feedback box */
+    padding: 15px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.form-box {
+    width: 60%; /* Increase width of the submit feedback form */
+    max-width: 600px; /* Optional: Limit the maximum width */
+    padding: 15px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Keep other existing styles... */
+
+

@@ -1,0 +1,106 @@
+.admin-review-container h1 {
+    text-align: center; /* Center the text */
+    font-size: 3em; /* Increase the font size */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #007bff; /* Set a blue color for the heading */
+    font-weight: 700; /* Bold weight for prominence */
+    text-transform: uppercase; /* Uppercase for a more formal look */
+    letter-spacing: 1px; /* Slight spacing between letters */
+    padding-bottom: 10px; /* Space between text and underline */
+    padding-top: 15px; /* Space between text and underline */
+
+}
+
+.admin-review-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Darker color for headings */
+}
+
+.feedback-table {
+    border-collapse: collapse;
+    margin-top: 20px; /* Space above the table */
+    margin-left: 20px;
+    width: 1314px; /* Set a fixed width */
+}
+
+
+
+.feedback-table th,
+.feedback-table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for better readability */
+    text-align: left;
+}
+
+.feedback-table th {
+    background-color: #007bff; /* Blue background for headings */
+    color: white; /* White text for contrast */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase for headings */
+    text-align: center;
+}
+
+.feedback-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+.feedback-table tbody tr:hover {
+    background-color: #e0f7fa; /* Light blue hover effect */
+}
+
+.feedback-table td {
+    font-size: 14px; /* Standard font size */
+    color: #555; /* Slightly lighter text color for better readability */
+}
+
+.feedback-table td .admdelete-button {
+    background-color: transparent; /* Transparent button background */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor for buttons */
+    padding: 0; /* No padding */
+}
+
+.feedback-table td .admdelete-button:hover {
+    opacity: 0.8; /* Slightly fade button on hover */
+}
+
+/* Optional: Add some responsive design */
+@media (max-width: 768px) {
+    .feedback-table th,
+    .feedback-table td {
+        padding: 8px; /* Less padding on smaller screens */
+        font-size: 12px; /* Smaller font size */
+    }
+    
+    .admin-review-container {
+        padding: 10px; /* Less padding for small screens */
+    }
+}
+
+.search-container {
+    position: relative; /* Relative positioning for absolute child */
+    display: flex; /* Flexbox for aligning input and icon */
+    align-items: center; /* Center items vertically */
+}
+
+.search-bar {
+    padding: 10px; /* Padding for better appearance */
+    margin-bottom: 20px; /* Space below the search bar */
+    border: 1px solid #ccc; /* Border for visual separation */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    width: 100%; /* Full width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.search-icon {
+    position: absolute; /* Position icon inside the input */
+    right: 10px; /* Space from the right edge */
+    pointer-events: none; /* Allow clicks on the input */
+}
+
+.star-rating {
+    font-size: 20px; /* Adjust size as needed */
+    color: gold; /* Color for filled stars */
+}

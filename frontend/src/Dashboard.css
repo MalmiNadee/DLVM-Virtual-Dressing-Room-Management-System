@@ -1,0 +1,64 @@
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./image/dashboard.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+/* Box Row */
+.box-row {
+  display: flex;
+  justify-content: space-between;
+  width: 50%; /* Set a fixed width to ensure alignment */
+  margin-bottom: 20px;
+}
+
+/* Box Styles */
+.box {
+  width: 45%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid white; /* Added white border */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.571); /* Transparent black background */
+}
+.box-name{
+  color: white;
+}
+/* Hover Effect */
+.box:hover {
+  transform: scale(1.08); /* Increased scale for a more noticeable effect */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle color change on hover */
+  border-color: rgba(255, 255, 255, 0.7); /* Change border color on hover */
+}
+
+/* Logout Button */
+.logout-btn {
+  padding: 20px 40px;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.logout-btn:hover {
+  background-color: #555;
+}
